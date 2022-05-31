@@ -1,4 +1,4 @@
-package task0106;
+package task01.task0106;
 
 public class Solution {
     /*
