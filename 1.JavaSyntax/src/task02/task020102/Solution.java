@@ -6,6 +6,6 @@ public class Solution {
 
         int metres = centimeters / 100;
 
-                System.out.println(metres);
+                 System.out.println(metres);
     }
 }
