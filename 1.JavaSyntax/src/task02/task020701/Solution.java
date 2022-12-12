@@ -13,6 +13,6 @@ public class Solution {
         System.out.println(txt3);
         System.out.println(txt2.toUpperCase());
         System.out.println(txt.toLowerCase());
-
+        System.out.println();
     }
 }
