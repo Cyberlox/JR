@@ -9,17 +9,11 @@ public class Solution {
         String nme = s.nextLine();
         Scanner ss = new Scanner (System.in);
         int age = ss.nextInt();
-        int ageTrue = 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 ;
-        if (age = ageTrue)
-                System.out.println(nme+ MilitaryCommissar);
-        else
-            ;
-        // Так я тут пытался сделать вообще другое решение, я пытался сделать два Int
-        // один из них сделать рядом чисел НУ ТУТ ВИДНО)) другой сравнить с этим рядом
-        // поставить != в if и если они равны, то команда работает, если нет то ничего
-        // но не выходит(( как писать ряд числе в int? гугл выдаёт что-то странно с int[] {}
-        // обычное решение я уже подсмотрел, там просто делается два if... не додумался до такого, думал нельзя мнм
-
+        if (age >= 18) {
+            if (age <= 28) {
+                System.out.println(nme + MilitaryCommissar);
+            }
+        }
 
     }
 
